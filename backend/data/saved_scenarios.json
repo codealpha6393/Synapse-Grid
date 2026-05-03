@@ -1,0 +1,38 @@
+[
+  {
+    "domain": "climate",
+    "title": "Saved scenario",
+    "description": "Increase EV subsidies by twenty percent over three years.",
+    "subsidy_change_pct": 20.0,
+    "timeframe_years": 3,
+    "scale": "national",
+    "budget_billion_usd": 7.5,
+    "initial_ev_adoption_pct": 8.0,
+    "carbon_tax_usd_per_ton": 35.0,
+    "renewable_investment_pct": 12.0
+  },
+  {
+    "domain": "climate",
+    "title": "Saved scenario",
+    "description": "Increase EV subsidies by twenty percent over three years.",
+    "subsidy_change_pct": 20.0,
+    "timeframe_years": 3,
+    "scale": "national",
+    "budget_billion_usd": 7.5,
+    "initial_ev_adoption_pct": 8.0,
+    "carbon_tax_usd_per_ton": 35.0,
+    "renewable_investment_pct": 12.0
+  },
+  {
+    "domain": "climate",
+    "title": "Saved scenario",
+    "description": "Increase EV subsidies by twenty percent over three years.",
+    "subsidy_change_pct": 20.0,
+    "timeframe_years": 3,
+    "scale": "national",
+    "budget_billion_usd": 7.5,
+    "initial_ev_adoption_pct": 8.0,
+    "carbon_tax_usd_per_ton": 35.0,
+    "renewable_investment_pct": 12.0
+  }
+]

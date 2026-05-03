@@ -1,0 +1,94 @@
+{
+  "scenarios": [
+    {
+      "id": "c_nat_subsidy",
+      "category": "Climate",
+      "domain": "climate",
+      "title": "National EV Subsidy Push",
+      "description": "Increase EV subsidies nationally by 20% over 3 years.",
+      "params": {
+        "domain": "climate",
+        "scale": "national",
+        "timeframe_years": 3,
+        "budget_billion_usd": 7.5,
+        "domain_params": {
+          "subsidy_change_pct": 20,
+          "initial_ev_adoption_pct": 8.0,
+          "renewable_investment_pct": 12.0
+        }
+      }
+    },
+    {
+      "id": "c_reg_chargers",
+      "category": "Climate",
+      "domain": "climate",
+      "title": "Regional Charging Corridors",
+      "description": "Aggressive grid upgrades and charging incentives regionally.",
+      "params": {
+        "domain": "climate",
+        "scale": "regional",
+        "timeframe_years": 5,
+        "budget_billion_usd": 2.5,
+        "domain_params": {
+          "subsidy_change_pct": 10,
+          "initial_ev_adoption_pct": 12.0,
+          "renewable_investment_pct": 25.0
+        }
+      }
+    },
+    {
+      "id": "f_rate_cut",
+      "category": "Finance",
+      "domain": "finance",
+      "title": "Aggressive Rate Cut",
+      "description": "Lower interest rates and heavy stimulus package.",
+      "params": {
+        "domain": "finance",
+        "scale": "national",
+        "timeframe_years": 2,
+        "budget_billion_usd": 150.0,
+        "domain_params": {
+          "interest_rate_pct": 2.5,
+          "corporate_tax_pct": -5.0,
+          "stimulus_billion": 150.0
+        }
+      }
+    },
+    {
+      "id": "h_telehealth",
+      "category": "Healthcare",
+      "domain": "healthcare",
+      "title": "Telehealth Mandate",
+      "description": "Shift primary care to virtual networks to reduce hospital strain.",
+      "params": {
+        "domain": "healthcare",
+        "scale": "national",
+        "timeframe_years": 5,
+        "budget_billion_usd": 12.0,
+        "domain_params": {
+          "hospital_budget_bn": 10.0,
+          "telehealth_mandate_pct": 45.0,
+          "preventative_care_pct": 25.0
+        }
+      }
+    },
+    {
+      "id": "u_transit",
+      "category": "Urban",
+      "domain": "urban",
+      "title": "High-Density Transit Overhaul",
+      "description": "Massive transit budget with upzoning near major corridors.",
+      "params": {
+        "domain": "urban",
+        "scale": "regional",
+        "timeframe_years": 8,
+        "budget_billion_usd": 25.0,
+        "domain_params": {
+          "transit_budget_bn": 22.0,
+          "housing_zoning_reform_pct": 60.0,
+          "density_limit_increase_pct": 45.0
+        }
+      }
+    }
+  ]
+}
